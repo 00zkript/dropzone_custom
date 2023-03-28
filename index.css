@@ -1,0 +1,46 @@
+body{
+    background: #fff;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+
+.dropzone{
+    text-align: center;
+    border: 3px dashed #2846f9;
+    position: relative;
+    padding: 3rem;
+    width: 45%;
+}
+
+
+.dropzone.hover{
+    background: rgba(40, 70, 249,0.2);
+}
+
+.dropzone .dropzone__title{
+    font-weight: 400;
+}
+
+.dropzone .dropzone__btn{
+    color: #2846f9;
+    text-decoration: none;
+}
+
+
+.dropzone .dropzone__preview img{
+    /* padding: 0.5rem; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
